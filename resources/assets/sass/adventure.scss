@@ -25,13 +25,39 @@ header {
 
 h1 {
   color: white;
+  font-family: 'Playfair Display', serif;
+  font-size: 100px;
+  margin-top: 5px;
+  letter-spacing: 1px;
 }
 
+h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 60px;
+}
+
+section {
+  padding: 30px;
+}
+
+// Header
 .title {
   text-align: center;
 }
-.subtitle {
+.subline {
   color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .subtitle {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 20px;
+    margin: 0 10px;
+  }
+  .deco {
+    height:13px;
+  }
 }
 
 // NAVIGATION //
@@ -39,7 +65,6 @@ h1 {
   position: absolute;
   width: 100%;
   background-color: transparent;
-  color: rgba(20,47,90,1);
   border: none;
   display: flex;
   flex-direction: row;
@@ -47,17 +72,34 @@ h1 {
 }
 
 .navbar-inverse {
-  &.navbar-brand {
+  .navbar-brand {
     color: #30425d;
     .navbar-logo {
-      max-width: 80px;
-      height: auto;
+      height: 40px;
+      width: auto;
     }
   }
 }
 
 .navbar-nav {
-  .nav-link {
+  .nav-item {
+    list-style: none;
+    margin: 10px;
+    padding: 10px;
+    border-bottom: white 2px solid;
+    .nav-link {
+      color: white;
+      text-transform: uppercase;
+    }
+  }
+}
 
+// introduction
+.introduction {
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  .text {
+    grid-column: 2 / 3;
+    text-align: center;
   }
 }
