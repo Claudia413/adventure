@@ -7,12 +7,22 @@
 
   <title>Adventure</title>
 
+  <!-- CSRF Token -->
+  <meta name="csrf-token" content="{{ csrf_token() }}">
+
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900" rel="stylesheet" type="text/css">
 
   <!-- Styles -->
   <link href="{{ URL::asset('/css/adventure.css') }}" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" type="text/css" href="{{ URL::asset('/css/slick.css') }}"/>
+
+  <script>
+    window.Laravel = {!! json_encode(['csrfToken' => csrf_token()]) !!};
+  </script>
+  <script src="{{ asset('js/app.js') }}" type="text/javascript"></script>
+
 </head>
 
 <body>
@@ -46,14 +56,69 @@
         </div>
       <h1>Adventure</h1>
     </div>
+    <img class="header-border" src="/imgs/Headerborder.png">
   </header>
 
   <section class="introduction">
+    <div class="background-image"><img src="/imgs/Turtle.png" alt="trurtle drawing"></div>
     <div class="text">
       <h2>Quest</h2>
       <p>Here comes a story of text and words and lines, and there will be much more meaning to that part than what I am writing here. This is just placeholder text about words and lines and sentences, where the real text will be awesome and cool and hopefully will fit in the design for which I still need to find a background image, edit it in Photoshop and also create the paint layour for the header. Among other things, like fill the rest of the website.</p>
     </div>
   </section>
-
+  <section class="gallery">
+    <div class="slider">
+      <!-- <div class="inner-slider"> -->
+        <div class="slide active">
+          <img class="photo-slide" src="/imgs/pic1.jpg" alt="First slide">
+        </div>
+        <div class="slide">
+          <img class="photo-slide" src="/imgs/pic2.jpg" alt="Second slide">
+        </div>
+        <div class="slide">
+          <img class="photo-slide" src="/imgs/pic3.jpg" alt="Third slide">
+        </div>
+        <div class="slide">
+          <img class="photo-slide" src="/imgs/pic2.jpg" alt="Fourth slide">
+        </div>
+        <div class="slide">
+          <img class="photo-slide" src="/imgs/pic3.jpg" alt="Fifth slide">
+        </div>
+    </div>
+  </section>
+  <section>
+    <div class="planning container">
+      <div class="planning-card">
+        <!-- map image -->
+          <div class="planning-heading">
+            <h3>Whale watching</h3>
+            <span class="subtitle">Awesome wildlife</span>
+          </div>
+          <div class="planning-intro">
+            <p>With a population of approximately 3,800 residents, the Kaikoura
+              township is located on a rocky peninsula, protruding from lush
+              farmland beneath the mountains. In the waters off the peninsula,
+              a complex marine system provides an abundantly rich habitat for
+              marine mammals and seabirds making it an ideal place for getting
+              ‘close to nature’.</p>
+          </div>
+      </div>
+      <img class="photo-feature" src="/imgs/kaikoura.png" alt="Whale tail above water in Kaikoura">
+      </div>
+    </div>
+  </section>
+  <section>
+    <!--  same width grid and columns as section above, left col image, right two have text. Maybe can even put in same grid as 1 section?-->
+  </section>
+  <section>
+    <!--  And another gallery feature, for all the pretty pictures of NZ we're going to take-->
+  </section>
+  <section class="wildlife">
+  <h2>Creatures or Wildlife?</h2>
+    <!-- here come 3 cols with info, lets grid them? =)  -->
+  </section>
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="{{ URL::asset('/js/slick.min.js') }}"></script>
 </body>
 </html>

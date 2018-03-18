@@ -16,3 +16,8 @@ let mix = require('laravel-mix');
 
 // copy assets (images, fonts and pdfs)
   mix.copy('resources/assets/imgs', 'public/imgs');
+
+  mix.copy('node_modules/jquery/dist/jquery.min.js', 'public/js')
+  mix.copy('node_modules/slick-carousel/slick/slick.min.js', 'public/js')
+  mix.copy('node_modules/slick-carousel/slick/slick.css', 'public/css')
+  mix.copy('node_modules/slick-carousel/slick/slick-theme.css', 'public/css')
