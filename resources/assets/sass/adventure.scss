@@ -177,13 +177,14 @@ header {
 .planning {
   display: grid;
   grid-template-columns: 1fr 33% 33%;
-  grid-template-rows: 257px 850px 1fr 1fr;
+  grid-template-rows: 257px 790px 1fr 1fr;
   grid-column-gap: 50px;
   .photo-feature {
     grid-column: 1 / 3;
     grid-row: 2 / 4;
-    width: 100%;
+    width: 90%;
     height: auto;
+    margin-left: 10%;
   }
   .planning-card {
     grid-column: 2 / 4;
@@ -210,6 +211,7 @@ header {
     .planning-intro {
       grid-column: 2 / 3;
       grid-row: 2 / 3;
+      font-size: 15px;
     }
   }
 }
