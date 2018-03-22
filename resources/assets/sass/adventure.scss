@@ -224,7 +224,7 @@ header {
   .initial {
     grid-column: 1/2;
     grid-row: 1/3;
-    width: 350px;
+    width: 320px;
     height: auto;
   }
   .discover-heading {
@@ -240,5 +240,43 @@ header {
     letter-spacing: 0.25em;
     font-weight: bold;
   }
+  p {
+    grid-row: 2/3;
+    grid-column: 2/3;
+  }
+  p + p{
+    grid-column: 3/4;
+  }
+}
 
+.gallery-static {
+  width: 100%;
+  padding: 75px 0;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 648px;
+  align-items: center;
+  .gallery-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    height: 640px;
+    background-color: #636b6f;
+    &:hover {
+      height: 648px;
+      overflow: visible;
+    }
+  }
+  .gallery-image {
+    height: 640px;
+    width: auto;
+    opacity: 0.4;
+    &:hover {
+      opacity: 1;
+      height: 648px;
+      z-index: 500;
+    }
+  }
 }

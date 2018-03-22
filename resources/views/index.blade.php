@@ -107,7 +107,7 @@
       </div>
     </div>
   </section>
-  <section class="discoveries">
+  <section class="discoveries container">
     <img class="initial" src="/imgs/Initial.png" alt="The first letter of the coming paragraph extensively decorated with natural elements" >
     <div class="discover-heading">
       <h3>A new world to discover</h3>
@@ -125,10 +125,20 @@
       Paikea onto his great back. Tohorā took Paikea south to New Zealand and
       the settlement of Whangara just north of present day Gisborne. Here,
       Paikea began a new and prosperous life.</p>
-    <!--  same width grid and columns as section above, left col image, right two have text. Maybe can even put in same grid as 1 section?-->
   </section>
-  <section>
-    <!--  And another gallery feature, for all the pretty pictures of NZ we're going to take-->
+  <section class="gallery-static">
+    <div class="gallery-item">
+      <img src="/imgs/Gallery5.png" alt="New Zealand image" class="gallery-image">
+    </div>
+    <div class="gallery-item">
+      <img src="/imgs/Gallery3.png" alt="New Zealand image" class="gallery-image">
+    </div>
+    <div class="gallery-item">
+      <img src="/imgs/Gallery2.png" alt="New Zealand image" class="gallery-image">
+    </div>
+    <div class="gallery-item">
+      <img src="/imgs/Gallery1.png" alt="New Zealand image" class="gallery-image">
+    </div>
   </section>
   <section class="wildlife">
   <h2>Creatures or Wildlife?</h2>
