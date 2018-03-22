@@ -141,8 +141,9 @@
     </div>
   </section>
   <section class="wildlife">
-  <h2>Creatures or Wildlife?</h2>
-    <!-- here come 3 cols with info, lets grid them? =)  -->
+    <h2>Creatures</h2>
+    <img src="/imgs/Kiwi.png" alt="Kiwi bird illustration">
+    
   </section>
   <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
   <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
