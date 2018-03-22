@@ -107,7 +107,24 @@
       </div>
     </div>
   </section>
-  <section>
+  <section class="discoveries">
+    <img class="initial" src="/imgs/Initial.png" alt="The first letter of the coming paragraph extensively decorated with natural elements" >
+    <div class="discover-heading">
+      <h3>A new world to discover</h3>
+      <span class="subtitle">The Whale Rider</span>
+    </div>
+    <p>Paikea was the youngest and favourite son of the chief Uenuku from the
+      island of Mangaia in the present day Cook Islands. This favouritism made
+      Paikea's elder brothers extremely jealous. They conspired to kill Paikea
+      while fishing offshore and tell Uenuku he drowned. But the night before
+      the trip Paikea feigned sleep and overheard his brothers plotting. When
+      far out to sea Paikea foiled their plan by deliberately sinking the canoe
+      and drowning his brothers.</p>
+    <p>Now adrift in a great ocean, Paikea clung to a canoe plank and awaited
+      his own death. It was then that Tohorā the whale appeared and lifted
+      Paikea onto his great back. Tohorā took Paikea south to New Zealand and
+      the settlement of Whangara just north of present day Gisborne. Here,
+      Paikea began a new and prosperous life.</p>
     <!--  same width grid and columns as section above, left col image, right two have text. Maybe can even put in same grid as 1 section?-->
   </section>
   <section>
