@@ -109,6 +109,9 @@ header {
     .nav-link {
       color: white;
       text-transform: uppercase;
+      &:hover {
+        text-decoration: none;
+      }
     }
   }
 }
@@ -214,7 +217,7 @@ header {
     }
   }
 }
-
+// Discovery
 .discoveries {
   display: grid;
   grid-template-columns: 1fr 33% 33%;
