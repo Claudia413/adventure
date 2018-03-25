@@ -46,7 +46,6 @@
     </div>
   </nav>
 
-
   <header class="flex-center">
     <div class="title">
       <div class="subline">
@@ -66,6 +65,7 @@
       <p>Here comes a story of text and words and lines, and there will be much more meaning to that part than what I am writing here. This is just placeholder text about words and lines and sentences, where the real text will be awesome and cool and hopefully will fit in the design for which I still need to find a background image, edit it in Photoshop and also create the paint layour for the header. Among other things, like fill the rest of the website.</p>
     </div>
   </section>
+
   <section class="gallery">
     <div class="slider">
       <!-- <div class="inner-slider"> -->
@@ -86,10 +86,11 @@
         </div>
     </div>
   </section>
+
   <section>
     <div class="planning container">
       <div class="planning-card">
-        <!-- map image -->
+        <img class="map-illustration" src="/imgs/Kaikouramap.png" alt="map of Kaikoura">
           <div class="planning-heading">
             <h3>Whale watching</h3>
             <span class="subtitle">Awesome wildlife</span>
@@ -107,6 +108,7 @@
       </div>
     </div>
   </section>
+
   <section class="discoveries container">
     <img class="initial" src="/imgs/Initial.png" alt="The first letter of the coming paragraph extensively decorated with natural elements" >
     <div class="discover-heading">
@@ -143,7 +145,7 @@
   <section class="wildlife">
     <h2>Creatures</h2>
     <img src="/imgs/Kiwi.png" alt="Kiwi bird illustration">
-    
+
   </section>
   <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
   <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
