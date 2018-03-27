@@ -46,7 +46,7 @@
     </div>
   </nav>
 
-  <header class="flex-center">
+  <header class="flex-center front-page-header">
     <div class="title">
       <div class="subline">
         <span><img src="/imgs/Dashdecoleft.png" class="deco" alt="decorative dash"></span>
@@ -128,6 +128,7 @@
       the settlement of Whangara just north of present day Gisborne. Here,
       Paikea began a new and prosperous life.</p>
   </section>
+
   <section class="gallery-static">
     <div class="gallery-item">
       <img src="/imgs/Gallery5.png" alt="New Zealand image" class="gallery-image">
@@ -142,11 +143,33 @@
       <img src="/imgs/Gallery1.png" alt="New Zealand image" class="gallery-image">
     </div>
   </section>
+
   <section class="wildlife">
-    <h2>Creatures</h2>
-    <img src="/imgs/Kiwi.png" alt="Kiwi bird illustration">
+    <header>
+      <h2>Creatures</h2>
+      <img class="creature" src="/imgs/Kiwi.png" alt="Kiwi bird illustration">
+    </header>
+    <div class="fact">
+      <h2>24</h2>
+      <span class="subtitle">hours</span>
+      <hr/>
+      <p>to spend on enjoying the other side of the world</p>
+    </div>
+    <div class="fact">
+      <h2>25</h2>
+      <span class="subtitle">Whale species</span>
+      <hr/>
+      <p>live in the waters around New Zealand</p>
+    </div>
+    <div class="fact">
+      <h2>15</h2>
+      <span class="subtitle">thousand km of coastline</span>
+      <hr/>
+      <p>making it the 9th longest in the world</p>
+    </div>
 
   </section>
+
   <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
   <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
   <script type="text/javascript" src="{{ URL::asset('/js/slick.min.js') }}"></script>
