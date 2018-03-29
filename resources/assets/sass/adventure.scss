@@ -119,14 +119,14 @@ section {
 // introduction
 .introduction {
   display:grid;
-  grid-template-columns: 1fr 52% 1fr;
+  grid-template-columns: 1fr 70% 1fr;
   grid-template-rows: 20px 1fr;
   .text {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
     text-align: center;
     z-index: 20;
-    padding: 0 20px;
+    padding: 0 20%;
     background: linear-gradient(to bottom, rgba(255,255,255,0), rgba(255,255,255,1));
   }
   .background-image {
@@ -292,7 +292,7 @@ section {
 .wildlife {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 300px 250px;
+  grid-template-rows: 400px 250px;
   grid-column-gap: 50px;
   header {
     grid-column: 1/4;
@@ -304,6 +304,8 @@ section {
     }
   }
   .fact {
+    grid-row: 2/3;
+    background: linear-gradient(to bottom, rgba(255,255,255,0), rgba(255,255,255,1));
     .subtitle {
       color: #00afec;
       letter-spacing: 0.15em;
