@@ -91,21 +91,20 @@
     <div class="planning container">
       <div class="planning-card">
         <img class="map-illustration" src="/imgs/Kaikouramap.png" alt="map of Kaikoura">
-          <div class="planning-heading">
-            <h3>Whale watching</h3>
-            <span class="subtitle">Awesome wildlife</span>
-          </div>
-          <div class="planning-intro">
-            <p>With a population of approximately 3,800 residents, the Kaikoura
-              township is located on a rocky peninsula, protruding from lush
-              farmland beneath the mountains. In the waters off the peninsula,
-              a complex marine system provides an abundantly rich habitat for
-              marine mammals and seabirds making it an ideal place for getting
-              ‘close to nature’.</p>
-          </div>
+        <div class="planning-heading">
+          <h3>Whale watching</h3>
+          <span class="subtitle">Awesome wildlife</span>
+        </div>
+        <div class="planning-intro">
+          <p>With a population of approximately 3,800 residents, the Kaikoura
+            township is located on a rocky peninsula, protruding from lush
+            farmland beneath the mountains. In the waters off the peninsula,
+            a complex marine system provides an abundantly rich habitat for
+            marine mammals and seabirds making it an ideal place for getting
+            ‘close to nature’.</p>
+        </div>
       </div>
       <img class="photo-feature" src="/imgs/kaikoura.png" alt="Whale tail above water in Kaikoura">
-      </div>
     </div>
   </section>
 
@@ -150,10 +149,10 @@
       <img class="creature" src="/imgs/Kiwi.png" alt="Kiwi bird illustration">
     </header>
     <div class="fact">
-      <h2>24</h2>
-      <span class="subtitle">hours</span>
+      <h2>30</h2>
+      <span class="subtitle">days</span>
       <hr/>
-      <p>to spend on enjoying the other side of the world</p>
+      <p>to explore the other side of the world</p>
     </div>
     <div class="fact">
       <h2>25</h2>
@@ -170,9 +169,11 @@
 
   </section>
   <footer>
-    <h3>
-      Thanks for visiting!
-    </h3>
+      <section class="light-on-dark">
+          <h3>
+              Thanks for visiting!
+          </h3>
+      </section>
   </footer>
 
   <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
