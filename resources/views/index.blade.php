@@ -27,10 +27,13 @@
 
 <body>
   <!-- Navigation desktop -->
-  <nav class="navbar navbar-toggleable-sm navbar-inverse bg-transparent">
+  <nav class="navbar navbar-expand-md navbar-inverse bg-transparent">
     <a class="navbar-brand" href="/">
       <img src="/imgs/Mountains2.png" class="navbar-logo"/>
     </a>
+    {{--<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">--}}
+      {{--<span class="navbar-toggler-icon"></span>--}}
+    {{--</button>--}}
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item">
